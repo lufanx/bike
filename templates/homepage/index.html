@@ -1,0 +1,163 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>bike</title>
+		<link rel="stylesheet" type="text/css" href="{% static "homepage/css/homepage.css" %}"/>
+		<link rel="stylesheet" type="text/css" href="{% static "homepage/css/news.css" %}"/>
+	</head>
+	<body>
+		<div id="header">
+			<div id="imagebike">
+				<a href="#"><img src="{% static "homepage/img/u=2476401796,3654484936&fm=200&gp=0.jpg" %}"/></a>
+			</div>
+			
+			<div class="head">
+				<ul>
+					<li class="shouye"><a href="#">首页</a></li>
+					<li class="quche"><a href="#">取车</a></li>
+					<li class="huanche"><a href="#">还车</a></li>
+					<li class="shouhou"><a href="#">售后</a></li>	
+			</div>
+			
+			<div class="login">
+				<ul>
+					<li class="denglu"><a href="#">登录</a></li>
+					<li class="zhuce"><a href="#">注册</a></li>
+					<li class="wybike"><a href="#">我的bike</a></li>
+				</ul>
+				
+			</div>
+		</div>
+		
+		<div id="box">
+			<div id="luanbo">
+				<img src="{% static "homepage/img/img1.jpg" %}"/ id="prc">
+				<ul id="list">
+					<li>1</li>
+					<li>2</li>
+					<li>3</li>
+					<li>4</li>
+					<li>5</li>
+				</ul>
+				<div id="le" class="bt"><</div>
+				<div id="ri" class="bt">></div>
+				
+			</div>
+			<script src="{% static "homepage/js/lunbo.js" %}" type="text/javascript" charset="utf-8"></script>
+			
+			<div id="bikenews">
+				<div id="newshead">
+					<div id="newslist">
+						<div id="zuixin">
+							<a href="#">最新</a>
+							
+						</div>
+						<div id="qiwen">
+							<a href="#">骑闻</a>
+						</div>
+						<div id="lvxing">
+							<a href="#">旅行</a>							
+						</div>
+					</div>
+					<script src="{% static "homepage/js/news.js" %}" type="text/javascript" charset="utf-8"></script>
+				</div>
+				<div id="newsinfo">
+					<div id="newsnums">
+						<ul>
+							<li class="newsli1">
+								<p><a href="#">狂野猛兽 PESU MONSTER 电助力山地车</a></p>
+								<img src="{% static "homepage/img/6.jpg" %}"/>
+								<span>对电助力自行车的误解或许是因为我们从未真正去了解。当你骑上它，发现这是一种前所未有的愉悦体验。那些曾经被当做在...</span>
+							</li>
+							<hr class="newshr1"/>
+							<li class="newsli2">
+								<p><a href="#">太阳网每日队报：火车不白蹭 迪穆兰环法升至次席</a></p>
+								<img src="{% static "homepage/img/7.jpg" %}"/>
+								<span>环法进行了第17赛段的争夺，再次单打独斗的迪穆兰等到最后1.5公里才发动进攻，最终成功把弗鲁姆拉爆，在总成绩榜跃居第...</span>
+							</li>
+							<hr class="newshr2"/>
+							<li class="newsli3">
+								<p><a href="#">更软更快：富律业FOURIERS气动水壶更新（文末福利</a></p>
+								<img src="{% static "homepage/img/8.jpg" %}"/>
+								<span>更新后的壶嘴比之前要大一个SIZE，这意味的单位时间内的流量变得更大，中途饮水将变得更加迅速，以往挤压两三次的水量...</span>
+							</li>
+							<hr class="newshr3"/>
+						</ul>
+					</div>
+					
+				</div>
+			</div>
+			<div id="rightnews">
+				<div id="quwen">
+					<div id="quwenhead">
+						<span>趣闻</span>
+					</div>
+					<div id="quweninfo">
+						<ul>
+							<li><a href="#">狂野猛兽 PESU MONSTER 电助力山地车</a></li>
+							<li><a href="#">火车不白蹭 迪穆兰环法升至次席</a></li>
+							<li><a href="#">更软更快：富律业FOURIERS气动水壶更新</a></li>
+							<li><a href="#">弗鲁姆被拉爆后惨遭安保毒手</a></li>
+							<li><a href="#">摔车伤臀部 萨甘希望继续环法之旅</a></li>
+							<li><a href="#">环法S17：酋长单飞登顶，迪穆兰逆袭</a></li>
+							<li><a href="#">甘南藏地传奇嘉年华 点燃甘南赛之火</a></li>
+							<li><a href="#">环湖赛第四赛段：哥伦比亚双雄称霸龙羊峡</a></li>
+							<li><a href="#">兔子骑行 环法主题系列线上赛第二场</a></li>
+							<li><a href="#">景晔中高端中轴：可选配陶瓷轴承</a></li>
+						</ul>
+					</div>
+				</div>
+				<div id="biaoqian">
+					<h2>热门标签</h2>
+					<hr />
+					<ul>
+						<li><a href="">环法</a></li>
+						<li><a href="">单车美女</a></li>
+						<li><a href="">美骑100</a></li>
+						<li><a href="">山地马拉松</a></li>
+						<li><a href="">山地越野</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="huodong">
+					<h2>兔子活动</h2>
+					<hr />
+					<a href="#"><img src="{% static "homepage/img/9.jpg" %}"/></a>
+					<a href="#"><img src="{% static "homepage/img/10.jpg" %}"/></a>
+					<a href="#"><img src="{% static "homepage/img/11.jpg" %}"/></a>
+				</div>
+		</div>
+		
+		<div id="fooder">
+			<div id="help">
+				<div class="left">
+					<a href="#">关于我们</a>
+				</div>
+				<div class="left">
+					<a href="#">联系我们</a>
+				</div>
+				<div class="left">
+					<a href="#">网站导航</a>
+				</div>
+				<div class="left">
+					<a href="#">新闻中心</a>
+				</div>
+				<div class="left">
+					<a href="#">意见反馈</a>
+				</div>
+			</div>
+			<div id="xian">
+				<hr />
+			</div>
+			
+			<div class="copyright">
+				<p class="fl1">Copyright©2016-2018  All Rights Reserved.</p>
+				<p class="fl2">如果您对该网站有任何意见，欢迎发送邮件到 <a href="#">web@bike.com</a></p>
+				
+			</div>
+		</div>
+		
+	</body>
+</html>

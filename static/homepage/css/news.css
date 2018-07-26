@@ -1,0 +1,171 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+#box #bikenews{
+	position: absolute;
+	left: 10px;
+	width: 330px;
+	height: 800px;
+	top: 0;
+	/*background-color: #AAAAAA;*/
+}
+
+#box #bikenews #newshead {
+	position: absolute;
+	left: 10px;
+	right: 5px;
+	width: 300px;
+	height: 40px;
+	top: 5px;
+	background-color: red;
+}
+
+#zuixin{
+	position: absolute;
+	left: 0;
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	background-color: #6985A5;
+}
+
+#qiwen{
+	position: absolute;
+	left: 100px;
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+}
+#lvxing{
+	position: absolute;
+	left: 200px;
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+}
+
+#newshead #newslist a{
+	text-decoration: none;
+	color: white;
+}
+
+#newsinfo {
+	position: absolute;
+	width: 300px;
+	height: 700px;
+	left: 10px;
+	top: 50px;
+}
+#newsinfo li{
+	position: relative;
+	text-align: center;
+	list-style: none;
+	width: 300px;
+	height: 250px;
+}
+#newsinfo span{
+	display: inline-block;
+	font-size: 12px;
+}
+
+#newsinfo a{
+	text-decoration: none;
+}
+#newsinfo hr{
+	position: relative;
+	bottom: 15px;
+}
+
+#rightnews{
+	position: absolute;
+	right: 10px;
+	width: 330px;
+	height: 800px;
+	top: 0;
+	/*background-color: aliceblue;*/
+}
+#rightnews #quwen{
+	position: absolute;
+	width: 300px;
+	height: 500px;
+	top: 5px;
+	background-color: aliceblue;
+	left: 15px;
+}
+
+#rightnews #biaoqian{
+	position: absolute;
+	width: 300px;
+	height: 270px;
+	/*background-color: aqua;*/
+	left: 15px;
+	top: 510px;
+}
+
+#biaoqian li{
+	position: relative;
+	height: 40px;
+	line-height: 40px;
+	left: 20px;
+}
+
+#biaoqian a{
+	text-decoration: none;
+}
+
+#rightnews #quwenhead{
+	position: absolute;
+	width: 300px;
+	height: 40px;
+	background-color: red;
+	text-align: center;
+	line-height: 40px;
+}
+#quwenhead span{
+	color: white;
+}
+#quweninfo {
+	position: absolute;
+	width: 300px;
+	height: 450px;
+	top: 50px;
+	/*background-color: blueviolet;*/
+}
+#quweninfo li{
+	width: 300px;
+	height: 45px;
+	line-height: 45px;
+	list-style: none;
+	font-size: 15px;
+	/*line-height: 450px;*/
+}
+#quweninfo a{
+	text-decoration: none;
+}
+
+#huodong {
+	position: absolute;
+	width: 740px;
+	height: 350px;
+	/*margin: 0 auto;*/
+	top: 440px;
+	left: 350px;
+	/*background-color: blue;*/
+	
+}
+/*#huodong a{
+	width: 740px;
+}*/
+/*#huodong p{
+	display: inline-block;
+}
+#huodong hr{
+	/*display: block;*/
+}*/
+
+

@@ -1,0 +1,58 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+#box{
+	position: relative;
+	width: 100%;
+	height: 900px;
+	background-color: aliceblue;
+}
+
+#fooder{
+	position: relative;
+	width: 100%;
+	height: 200px;
+	background-color: #1B2B3B;
+}
+
+#register{
+	position: absolute;
+	width: 400px;
+	height: 300px;
+	left: 50px;
+	top: 100px;
+	background-color: cadetblue;
+}
+
+
+#register .username{
+	position: absolute;
+	width: 150px;
+	height: 20px;
+	left: 80px;
+	top: 20px;
+}
+#register .password{
+	position: absolute;
+	width: 150px;
+	height: 20px;
+	left: 80px;
+	top: 50px;
+}
+#register .reset{
+	position: absolute;
+	width: 50px;
+	height: 20px;
+	left: 80px;
+	top: 80px;
+}
+#register .regist{
+	position: absolute;
+	width: 50px;
+	height: 20px;
+	left: 140px;
+	top: 80px;
+}
+
